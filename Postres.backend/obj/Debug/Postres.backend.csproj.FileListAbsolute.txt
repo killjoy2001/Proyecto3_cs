@@ -1,0 +1,8 @@
+C:\Users\kenny\OneDrive\Escritorio\Estructura de datos\proyecto 3 consola\Postres\Postres.backend\bin\Debug\Postres.backend.exe.config
+C:\Users\kenny\OneDrive\Escritorio\Estructura de datos\proyecto 3 consola\Postres\Postres.backend\bin\Debug\Postres.backend.exe
+C:\Users\kenny\OneDrive\Escritorio\Estructura de datos\proyecto 3 consola\Postres\Postres.backend\bin\Debug\Postres.backend.pdb
+C:\Users\kenny\OneDrive\Escritorio\Estructura de datos\proyecto 3 consola\Postres\Postres.backend\obj\Debug\Postres.backend.csproj.AssemblyReference.cache
+C:\Users\kenny\OneDrive\Escritorio\Estructura de datos\proyecto 3 consola\Postres\Postres.backend\obj\Debug\Postres.backend.csproj.SuggestedBindingRedirects.cache
+C:\Users\kenny\OneDrive\Escritorio\Estructura de datos\proyecto 3 consola\Postres\Postres.backend\obj\Debug\Postres.backend.csproj.CoreCompileInputs.cache
+C:\Users\kenny\OneDrive\Escritorio\Estructura de datos\proyecto 3 consola\Postres\Postres.backend\obj\Debug\Postres.backend.exe
+C:\Users\kenny\OneDrive\Escritorio\Estructura de datos\proyecto 3 consola\Postres\Postres.backend\obj\Debug\Postres.backend.pdb
