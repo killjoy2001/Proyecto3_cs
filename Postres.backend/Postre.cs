@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace Postres.backend
 {
-    public class Postre
+    internal class Ingredientes
     {
-        /* Definir el nombre ya que es lo que va a diferenciar 
-           los postres y así poder hacer un pullup de la lista correcta */
-
-        public string nombre { get; set; }
         public string ingrediente { get; set; }
 
-        private LinkedList<string> postre = new LinkedList<string>();
+        private LinkedList<string> listaIngredientes = new LinkedList<string>();
 
         public void DefinirIngrediente()
         {
@@ -25,18 +21,52 @@ namespace Postres.backend
 
         private void Agregar()
         {
-            postre.AddLast(ingrediente);
-        }
-        public void Eliminar()
-        {
-            postre.Remove(ingrediente);
+            listaIngredientes.AddFirst(ingrediente);
         }
         public void Imprimir()
         {
-            foreach (string item in postre)
+            foreach (string item in listaIngredientes)
             {
                 Console.WriteLine(item);
             }
+        }
+
+        public void Eliminar()
+        {
+            Console.WriteLine("ingrese valor a eliminar");
+            ingrediente = Console.ReadLine();
+
+
+            bool found = false; // *********
+
+            LinkedListNode<string> nodoActual = listaIngredientes.First;
+
+            while (nodoActual != null)
+            {
+                if (nodoActual.Value == ingrediente)
+                {
+                    listaIngredientes.Remove(nodoActual);
+                    break;
+                }
+                nodoActual = nodoActual.Next;
+            }
+            // *******
+            if (!found)
+            {
+                Console.WriteLine($"El valor '{ingrediente}' ha sido eliminado ");
+
+            }
+            else
+            {
+                Console.WriteLine($"El valor '{ingrediente}' no se encontró en la lista");
+            }
+
+            Console.WriteLine("Lista actualizada:");
+            foreach (string value in listaIngredientes)
+            {
+                Console.WriteLine(value);
+            }
+            Console.Read();
         }
     }
 }
