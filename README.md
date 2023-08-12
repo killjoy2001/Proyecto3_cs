@@ -1,1 +1,1 @@
-En master, está el código actualizado con el método Eliminar() mejor adaptado.
+/* Falta buscar la forma de ingresar el nombre del postre para que se imprima en el método Consulta() */
