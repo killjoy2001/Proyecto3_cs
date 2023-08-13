@@ -65,5 +65,24 @@ namespace Postres.backend
             Console.ReadKey();
 
         }
+        
+        public void Eliminar()
+        {
+            Console.WriteLine("ingrese el postre a eliminar");
+            string eliminar = Console.ReadLine();
+
+            for (int i = 0; i < postres.Count; i++)
+            {
+                foreach (var postre in nombrePostre[i])
+                {
+                    if (eliminar == nombrePostre[i])
+                    {
+                        nombrePostre.RemoveAt(i);
+                        postres.RemoveAt(i);
+                    }
+                }
+            }
+
+        }
     }
 }
