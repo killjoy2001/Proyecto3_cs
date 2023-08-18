@@ -11,19 +11,8 @@ namespace Postres.backend
     {
         static void Main(string[] args)
         {
-
-            Postre postre1 = new Postre();
-            Postre postre2 = new Postre();
-            Postre postre3 = new Postre();
-            Postre postre4 = new Postre();
-            Postre postre5 = new Postre();
-            Postre postre6 = new Postre();
-            Postre postre7 = new Postre();
-            Postre postre8 = new Postre();
-            Postre postre9 = new Postre();
-            Postre postre10 = new Postre();
-
-            postre1.DefinirIngrediente();
+            Postres postre = new Postre();
+            postre.menu();
 
         }
     }
