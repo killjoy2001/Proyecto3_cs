@@ -51,7 +51,7 @@ namespace Postres.backend
                             ingredientes.AddLast(ingrediente);
                         }
 
-                        postres.Add(ingredientes);  break;
+                        postres.Add(ingredientes);  menu(); break;
 
                     case "2": // consultar postres
 
@@ -67,7 +67,7 @@ namespace Postres.backend
                             Console.WriteLine();
 
                         }
-                        Console.ReadKey(); break;
+                        Console.ReadKey(); menu(); break;
 
                     case "3": // eliminar postre
 
@@ -84,7 +84,7 @@ namespace Postres.backend
                                     postres.RemoveAt(i);
                                 }
                             }
-                        } break;
+                        } menu(); break;
                 }
             } while (true);
         }
